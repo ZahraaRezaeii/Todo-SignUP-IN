@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+
+<body>
+    <div class="header">
+        <div onclick="anonymous()" class="headerOption guest-btn-head">enter as guest</div> 
+        <div onclick="changePage('sign-up')" class="headerOption sign-btn-head">sign up</div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="head"><h3>Sign in</h3></div>
+        <div class="username">
+     
+            <input class="username-input input" type="text" placeholder="Enter your username">
+
+        </div>
+        <div class="password">
+        
+            <input class="password-input input" type="password" placeholder="Enter your password">
+        </div>
+
+        <button onclick="signIn()" class="submit">Submit</button>
+
+        <div class="option">
+            <div class="signText">Don't have an account?</div><a onclick="changePage('sign-up')"> sing up</a>
+        </div>
+    </div>
+    <script src="todo-sign.js"></script>
+</body>
+</html>

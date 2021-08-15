@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin: 50px auto;
+    text-align: center;
+    width: 450px;
+    padding-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(241, 241, 241, 0.329);
+   /* box-shadow: 0px 0px 10px 2px rgba(212, 212, 212, 0.712);*/
+}
+
+
+.head h3{
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+.field {
+    /*padding: 0.5px;*/
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 388px;
+    height: 50px;
+    margin: 10px auto;
+    border: 1px solid  black;
+    border-radius: 20px;
+    padding: 0 8px;
+    outline: none;
+    font-size: 17px;
+}
+
+.input:focus{
+    transition: 0.3s;
+    border: 2px solid rgb(129, 214, 253) !;
+    box-shadow: 0 0 10px rgb(21, 124, 150);
+}
+.input::placeholder{
+    font-size: 15px;
+    opacity: 0.6;
+}
+.head-name{
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 7px 20px;
+}
+
+.submit{
+    height: 60px;
+    padding:12px;
+    background-color: black;
+    margin: 30px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.option .signTextt{
+    display: inline;
+}
+
+
+.option a{
+    color: blue;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.option a:hover{
+    color: black;
+}
+
+
+
+
+.app-name{
+    color: rgb(75 111 223);
+    width: 250px;
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 24px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.headerOption{
+    position: absolute;
+    top: 14px;
+    height: 20px;
+    padding: 10px 5px;
+    border-radius: 50%;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+    border: 0.5px solid rgba(255, 255, 255, 0.432);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sign-btn-head{
+    width: 60px;
+    right: 30px;
+    background-color: black;
+    justify-content: center;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.guest-btn-head{
+    width: 110px;
+    right: 130px;
+    left: 25px !important;
+    color: white;
+    background-color: black;
+}
+
+/* .guest-btn-head:hover{
+    background-color: rgb(87, 194, 243) !important;
+} */
+
+
+.headerOption:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px 1px rgb(150, 150, 150);
+
+}
+
+

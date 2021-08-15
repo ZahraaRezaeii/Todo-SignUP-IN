@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  color: #444;
+}
+
+#ro {
+  max-width:100%;
+  height: 580px;
+  margin: 0.5rem auto;
+  padding: 0 1rem;
+  background: white;
+}
+
+form {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+[type="text"],
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background: #303030;
+  color: #fff;
+  margin: 0 .5rem;
+}
+
+[type="text"] {
+  width: 100%;
+}
+
+
+[type="checkbox"] {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+  color: #222;
+  text-align: center;
+  padding-right: 80px;
+  padding-top: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  background: #eee;
+  border: #FF00FF;
+  border-radius: 4px;
+}
+
+li span {
+  display: inline-block;
+  padding: .5rem;
+  width: 420px;
+}
+
+#filterButtons{
+  cursor: pointer;
+  padding: 0.5rem;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.buttons{
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.all{
+float: left;
+width: 7rem;
+padding: 0.7rem;
+border-radius: 20px;
+cursor: pointer;
+background: #B8B8B8;
+color: white;
+}
+.active{
+  float: left;
+  width: 7rem;
+  padding: 0.7rem;
+border-radius: 20px;
+cursor: pointer;
+background: #B8B8B8;
+color: white;
+}
+.complete{
+  float: left;
+  width: 7rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #B8B8B8;
+  color: white;
+}
+
+.topBtn {
+  float: right;
+  width: 7rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #B8B8B8;
+  color: white;
+}
+
+#empty{
+  width:100%;
+  height: 30px;
+}
+
+#user-name{
+  float: left;
+  width: 7rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #B8B8B8;
+  color: white;
+}
+
+/* .signin{
+  font-weight: 700;
+  float: left;
+  width: 10.5rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgb(12, 232, 240);
+  color: black;
+}
+
+.signup{
+  font-weight: 700;
+  float: left;
+  width: 10.5rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgb(12, 232, 240);
+  color: black;
+} */
+.Upload{
+ float: left;
+  width: 7rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #B8B8B8;
+  color: white;
+  }
+  #downloadBtn{
+    float: left;
+    width: 7.2rem;
+    padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #B8B8B8;
+  color: white;
+  }
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+
+
+header {
+  text-align: center;
+  border:2px solid #a3a3a3;
+   background-color: #b4a6a6; 
+  /* background-color: #ddd; */
+  width: 99.8%;
+  color: white;
+  height: 80px;
+}
+
+#username{
+  position: absolute;
+  top: 85px;
+  width: fit-content;
+  left: 25px;
+  color:  rgba(38, 76, 202, 0.712) !important;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+  @-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
